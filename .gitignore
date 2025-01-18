@@ -1,2 +1,41 @@
-.env
+# Airflow 관련
+/logs/
+/airflow.db
+/airflow.cfg
+/webserver_config.py
+/airflow-webserver.pid
+/standalone_admin_password.txt
+/.env
+logs/
+logs/*
+*.log
 
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# IDE 관련
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 데이터 파일
+*.csv
+*.json
+*.xlsx
+*.parquet
+/data/
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# Docker 관련
+.docker/
+docker-compose.override.yml
