@@ -39,3 +39,4 @@ Thumbs.db
 # Docker 관련
 .docker/
 docker-compose.override.yml
+/docker-compose.yaml
